@@ -3,16 +3,17 @@
 language: en
 
 # header
-site_brand_name: Frame.
+site_brand_name: Err0r51's Blog
 
 logo_image:
   enable: false
-  image_path: /logo.png # path to your logo image
+  image_path: /assets/logo.webp
 
 menu:
   Home: /
-  Archive: /archives/
-  Gallery: /categories/gallery/
+  Articles: /archives/
+  About: /about/me
+
 
 # stylesheets loaded in the <head>
 stylesheets:
@@ -25,33 +26,35 @@ scripts:
 # favicon
 favicon: /favicon.ico
 
-date_format: MMM D, YYYY
+date_format: DD-MM-YYYY
 
 # profile
 profile:
-  title: Hi, this is Frame. 
-  body: A minimal, elegant hexo theme.
-  image: /profile_cover.png
+  title: In Core we trust. 
+  body: A minimal blog sharing my learnings and experiences in the field of software engineering.
+  image: /assets/landing.webp
 
   links:
-    Home: /
-    Blogs: /archives/
+    My recent articles: /archives/
 
 # footer
 footer:
   copyright_info:
-    enable: false
-    author:
+    enable: true
+    author: Err0r51 
 
-  powered_by: # Powered by Hexo & Frame
+  powered_by: # Powered by Hexo & Bouldering
     enable: true
 
   other_info:
     enable: false
-    content:
+    content: 'Other info' 
+    author: Err0r51
+    Github: https://github.com/hexojs/hexo/
+
 
 # color mode: default / classic / dark
-color_mode: default
+color_mode: dark
 
 # mathjax setting
 # note: need to install the hexo plugin for math: https://github.com/hexojs/hexo-math
